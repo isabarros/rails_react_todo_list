@@ -1,10 +1,19 @@
 import React, { Fragment } from 'react'
+import { Typography, Container } from '@material-ui/core'
+import AppMenu from 'components/AppMenu'
 
 export default props =>
-  <Fragment>
-    <div className='lists-wrapper-div'>
-      <div className='favourites-div'>Favourites</div>
-      <div className='my-lists-div'>My Lists</div>
-      <div className='shared-with-me-div'>Shared with me</div>
-    </div>
-  </Fragment>
+<Fragment>
+  <AppMenu/>
+  <Container style={{display: 'flex', justifyContent: 'center'}}>
+    <Typography variant='h6' align='center' style={{margin: '2% 10% 2% 10%'}}>
+      Favourites
+    </Typography>
+    <Typography variant='h6' align='center' style={{margin: '2% 10% 2% 10%'}}>
+      My Lists
+    </Typography>
+    <Typography variant='h6' align='center' style={{margin: '2% 10% 2% 10%'}}>
+      Shared with me
+    </Typography>
+  </Container>
+</Fragment>
