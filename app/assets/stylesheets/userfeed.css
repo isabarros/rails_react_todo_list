@@ -1,0 +1,25 @@
+.lists-wrapper-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.favourites-div {
+    margin: 2% 10% 2% 10%;
+    text-align: center;
+}
+
+.my-lists-div {
+    margin: 2% 10% 2% 10%;
+    text-align: center;
+}
+
+.shared-with-me-div {
+    margin: 2% 10% 2% 10%;
+    text-align: center;
+}
+
+.line-separator-div {
+    border-right: 1px solid black;
+    width: 0%;
+}

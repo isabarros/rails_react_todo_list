@@ -1,13 +1,13 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Example from "../components/Example";
 import Homepage from "../components/Homepage";
+import Userfeed from "../components/Userfeed";
 
 export default (
   <Router>
     <Switch>
       <Route path="/" exact component={Homepage} />
-      <Route path="/example" exact component={Example} />
+      <Route path="/userfeed" exact component={Userfeed} />
     </Switch>
   </Router>
 );
