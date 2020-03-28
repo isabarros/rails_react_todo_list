@@ -1,13 +1,10 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 
-const Userfeed = props => (
+export default props =>
+  <Fragment>
     <div className='lists-wrapper-div'>
-        <div className='favourites-div'>Favourites</div>
-        <div className='line-separator-div'></div>
-        <div className='my-lists-div'>My Lists</div>
-        <div className='line-separator-div'></div>
-        <div className='shared-with-me-div'>Shared with me</div>
+      <div className='favourites-div'>Favourites</div>
+      <div className='my-lists-div'>My Lists</div>
+      <div className='shared-with-me-div'>Shared with me</div>
     </div>
-)
-
-export default Userfeed
+  </Fragment>
