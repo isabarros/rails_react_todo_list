@@ -6,3 +6,7 @@ To Do List app for created using React and Ruby on Rails
 2. Run `docker-compose build`
 3. Run `docker-compose up`
 4. In another terminal run open the project root folder and run `docker-compose run web bundle exec rake db:create` to create the databases
+
+## How to run database migrations
+1. You need to have your application up and running (`docker-compose up`)
+2. In another terminal execute `docker-compose run web bundle exec rake db:migrate`
