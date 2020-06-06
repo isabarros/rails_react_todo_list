@@ -10,3 +10,6 @@ To Do List app for created using React and Ruby on Rails
 ## How to run database migrations
 1. You need to have your application up and running (`docker-compose up`)
 2. In another terminal execute `docker-compose run web bundle exec rake db:migrate`
+
+(note: in case permission denied while trying to connect to the Daemon not `sudo chmod 666 /var/run/docker.sock`)
+(note2: https://docs.docker.com/engine/install/linux-postinstall/#configure-docker-to-start-on-boot)
